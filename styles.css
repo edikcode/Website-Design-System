@@ -69,6 +69,11 @@ header li {
   }
 }
 
+ @media only screen and (max-width: 600px) {
+  header {
+    font-size: 8px;
+  }
+
 header a {
   text-decoration: none;
   color: #fff;
@@ -120,7 +125,12 @@ nav {
   #color div p {
     font-size: 15px;
   }
+}
 
+@media only screen and (max-width: 600px) {
+  #color div p {
+    font-size: 10px;
+  }
 }
 
 /* Color blue  */
